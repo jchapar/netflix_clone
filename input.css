@@ -10,3 +10,19 @@
   width: 100%;
   position: relative; */
 }
+
+.tab {
+  @apply flex flex-col justify-center mx-4 md:mx-8 text-center cursor-pointer;
+}
+
+.tab-border {
+  border-bottom: 4px solid transparent;
+}
+
+.tab-border:hover {
+  border-bottom: 4px solid #e50914;
+}
+
+.tab.active {
+  border-bottom: 4px solid #e50914;
+}
