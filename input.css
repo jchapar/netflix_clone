@@ -26,3 +26,12 @@
 .tab.active {
   border-bottom: 4px solid #e50914;
 }
+
+tbody tr {
+  /* color: #464646; */
+  color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #222;
+}
